@@ -8,19 +8,23 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <canvas id="bg-canvas"></canvas>
 
 <header class="header">
-  <div class="header-inner">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="logo_paris_cite.jpg" alt="Université Paris Cité">
+    </a>
     <h1 class="brand">Taha Moutaki Allah</h1>
     <nav class="nav">
       <ul>
-        <li><a href="index.html" target="_blank">Accueil</a></li>
-        <li><a href="about.html" target="_blank">À propos</a></li>
-        <li><a href="skills.html" target="_blank">Compétences</a></li>
-        <li><a href="projects.html" target="_blank">Projets</a></li>
-        <li><a href="career.html" target="_blank">Projet Pro</a></li>
-        <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="skills.html">Compétences</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="pro.html">Projet Pro</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -29,22 +33,29 @@
 <section class="section content">
   <h2>Projets</h2>
   <div class="projects-grid">
-
-    <!-- TIPE Empreintes Digitales -->
+    
+    <!-- Projet TIPE -->
     <div class="window-card">
       <h4>TIPE — Identification par Empreintes Digitales</h4>
       <p>
-        Réalisé dans le cadre de mon parcours CPGE MPSI/MP, ce projet TIPE (Travail d’Initiative Personnelle Encadré) portait sur l’étude biométrique de l’identification des individus à partir de leurs empreintes digitales.
-        Le projet comprenait plusieurs étapes techniques : acquisition et prétraitement des images, enhancement pour améliorer le contraste, binarisation, échantillonnage des points caractéristiques, extraction des minuties et filtrage des faux positifs.
-        La comparaison des empreintes se faisait via des algorithmes de matching pour assurer une reconnaissance fiable.
+        Étude biométrique des empreintes digitales : acquisition, prétraitement, enhancement, binarisation, extraction des minuties et filtrage des faux positifs.
       </p>
       <p>
-        Cette expérience m’a permis de mettre en pratique des concepts avancés de traitement d’images et d’algorithmique, d’appliquer des notions de filtrage, de morphologie mathématique et de pattern recognition,
-        et de développer rigueur scientifique, autonomie et gestion d’un projet complet. Elle a renforcé mes compétences en programmation et en analyse de données complexes.
+        Cette expérience a renforcé mes compétences en programmation, traitement d’images, filtrage, morphologie mathématique et algorithmes de matching.
       </p>
-      <a href="EMPRE.pdf" download class="btn primary" style="margin-top:10px; display:inline-block;">
-        📄 Télécharger le TIPE (PDF)
-      </a>
+      <a href="EMPRE.pdf" download class="btn primary" style="margin-top:10px; display:inline-block;">📄 Télécharger le TIPE (PDF)</a>
+    </div>
+
+    <!-- Nouveau Projet -->
+    <div class="window-card">
+      <h4>Portfolio Web Personnel</h4>
+      <p>
+        Développement de mon portfolio web pour présenter mes projets, compétences et expériences. Le site est responsive, optimisé pour tous les écrans et animé avec du JavaScript pour améliorer l’expérience utilisateur.
+      </p>
+      <p>
+        Technologies utilisées : HTML5, CSS3, JavaScript, Google Fonts et animations Canvas pour le background dynamique. Hébergé sur GitHub Pages pour assurer un accès rapide et fiable.
+      </p>
+      <a href="https://github.com" target="_blank" class="btn primary" style="margin-top:10px; display:inline-block;">🔗 Voir sur GitHub</a>
     </div>
 
   </div>
@@ -58,6 +69,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
-
