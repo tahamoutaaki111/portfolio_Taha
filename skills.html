@@ -1,79 +1,92 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Compétences — Taha Moutaki Allah</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compétences — Taha Moutaki Allah</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <h1 class="brand">Taha Moutaki Allah</h1>
-      <nav class="nav">
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="skills.html">Compétences</a></li>
-          <li><a href="about.html">À propos</a></li>
-          <li><a href="projects.html">Projets</a></li>
-          <li><a href="pro.html">Projet Pro</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="logo_paris_cite.jpg" alt="Université Paris Cité">
+    </a>
+    <h1 class="brand">Taha Moutaki Allah</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="skills.html">Compétences</a></li>
+        <li><a href="projects.html">Projets</a></li>
+        <li><a href="pro.html">Projet Pro</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  <!-- Compétences -->
-  <section class="section">
-    <div class="container">
-      <h2 style="color:var(--accent); text-align:center; margin-bottom:40px;">Mes Compétences</h2>
+<section class="section">
+  <div class="container">
+    <h2 style="color:var(--accent); text-align:center; margin-bottom:40px;">Mes Compétences</h2>
+    <div class="window-column">
 
-      <div class="window-column">
-        <!-- Compétences techniques -->
-        <div class="window-card">
-          <h3>Compétences Techniques</h3>
-          <p>Python · C/C++ · MATLAB · JavaScript · HTML/CSS · Arduino · Raspberry Pi · VS Code · Git/GitHub</p>
-        </div>
-
-        <!-- Compétences académiques -->
-        <div class="window-card">
-          <h3>Compétences Académiques</h3>
-          <p>Maitrise approfondie des notions de Mathématiques et Physique pour la prépa scientifique et projets TIPE.</p>
-          <p>Participation aux stages finals des Olympiades Mathématiques et Physique au Maroc — expérience confirmant mes compétences et rigueur scientifique.</p>
-        </div>
-
-        <!-- Langues -->
-        <div class="window-card">
-          <h3>Langues</h3>
-          <p>Anglais — Niveau avancé</p>
-          <p>Espace pour mettre tes liens :</p>
-          <ul>
-            <li>Duolingo : <a href="#" target="_blank">lien à ajouter</a></li>
-            <li>TOEFL : <a href="#" target="_blank">lien à ajouter</a></li>
-          </ul>
-        </div>
-
-        <!-- Soft Skills -->
-        <div class="window-card">
-          <h3>Soft Skills</h3>
-          <p>Leadership · Rigueur · Travail en équipe · Organisation · Gestion de projet</p>
-        </div>
+      <div class="window-card">
+        <h3>Compétences Techniques</h3>
+        <p>Python · C · VS Code · Git/GitHub</p>
       </div>
-    </div>
-  </section>
 
-  <footer class="footer">
-    <div class="container">
-      <small>© 2025 Taha Moutaki Allah — L’HISTOIRE EST EN MARCHE</small>
-    </div>
-  </footer>
+      <div class="window-card">
+        <h3>Compétences Académiques</h3>
+        <p>Maitrise approfondie des notions de Mathématiques et Physique pour prépa et TIPE.</p>
+        <p>Participation aux stages finals des Olympiades Mathématiques et Physique au Maroc.</p>
+      </div>
 
-  <script src="script.js"></script>
+      <div class="window-card">
+        <h3>Langues</h3>
+        <p>Anglais — Niveau avancé</p>
+
+        <!-- Mini-card TOEFL -->
+        <div class="certificate-widget">
+          <div class="cw-header">
+            <div class="cw-icon">📄</div>
+            <div>
+              <h4>Certificat TOEFL</h4>
+              <span>Niveau avancé en anglais</span>
+            </div>
+          </div>
+
+          <p class="cw-text">
+            Vous pouvez consulter mon certificat TOEFL en cliquant sur le bouton ci-dessous.
+          </p>
+
+          <a class="cw-button" href="certificatsTOEFL.pdf" target="_blank" rel="noopener noreferrer">
+            Voir le certificat
+          </a>
+        </div>
+        <!-- Fin Mini-card TOEFL -->
+
+        <p>Français — Niveau avancé</p>
+        <p>Arabe — Langue maternelle</p>
+      </div>
+
+      <div class="window-card">
+        <h3>Soft Skills</h3>
+        <p>Leadership · Rigueur · Travail en équipe · Organisation · Gestion de projet</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <small>© 2025 Taha Moutaki Allah — L’HISTOIRE EST EN MARCHE</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
